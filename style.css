@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0.2px;
+}
+.container{
+    margin: 30px;
+    font-family: Arial,sans-serif;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.content_left a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid aqua;
+}
+.content_right a{
+    text-decoration: none;
+    color: black;
+}
+.mail{
+    border: 2px solid aqua;
+}
+.education{
+    /* margin-top: 10px; */
+    background-color: rgba(128, 128, 128, 0.249);
+    font-size: 20px;
+}
+.education p::first-letter{
+    font-size: 30px;
+}
+.divider{
+    height: 0px;
+}
+.inst_det{
+    display: flex;
+    justify-content: space-between;
+}
+.inst_branchd{
+    display: flex;
+    justify-content: space-between;
+}
+.edu_details{
+    margin-top: 3px;
+}
+.skills{
+    background-color: rgba(128, 128, 128, 0.249);
+    font-size: 20px;
+}
+.skills p::first-letter{
+    font-size: 30px;
+}
+.projects p::first-letter{
+    font-size: 30px;
+}
+.projects{
+    background-color: rgba(128, 128, 128, 0.249);
+    font-size: 20px;
+}
+.extra p::first-letter{
+    font-size: 30px;
+}
+.extra{
+    background-color: rgba(128, 128, 128, 0.249);
+    font-size: 20px;
+}
+.lang p::first-letter{
+    font-size: 30px;
+}
+.lang{
+    background-color: rgba(128, 128, 128, 0.249);
+    font-size: 20px;
+}
+
